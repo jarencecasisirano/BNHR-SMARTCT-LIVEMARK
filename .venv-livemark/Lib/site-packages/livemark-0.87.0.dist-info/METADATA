@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: livemark
+Version: 0.87.0
+Summary: Data presentation framework for Python that generates static sites from extended Markdown with interactive charts, tables, scripts, and other features.
+Home-page: https://github.com/frictionlessdata/livemark
+Author: Evgeny Karev
+Author-email: eskarev@gmail.com
+License: MIT
+Keywords: livemark,markdown,documentation
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: marko (>=1.0)
+Requires-Dist: pyyaml (>=5.3)
+Requires-Dist: jinja2 (>=3.0)
+Requires-Dist: pyquery (==1.*)
+Requires-Dist: deepmerge (>=0.3)
+Requires-Dist: gitpython (>=3.1)
+Requires-Dist: jsonschema (>=2.5)
+Requires-Dist: typer[all] (>=0.3)
+Requires-Dist: livereload (>=2.6)
+Requires-Dist: giturlparse (>=0.10)
+Requires-Dist: cached-property (>=1.5)
+Requires-Dist: docstring-parser (>=0.10)
+Requires-Dist: frictionless[excel,json] (==4.*)
+Provides-Extra: dev
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: pylama ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: ipython ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-vcr ; extra == 'dev'
+Requires-Dist: pytest-only ; extra == 'dev'
+
+# Livemark
+
+Data presentation framework for Python that generates static sites from extended Markdown with interactive charts, tables, scripts, and other features.
+
+- https://livemark.frictionlessdata.io/
+

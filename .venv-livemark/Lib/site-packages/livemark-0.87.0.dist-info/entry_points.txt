@@ -1,0 +1,3 @@
+[console_scripts]
+livemark = livemark.__main__:program
+

@@ -1,0 +1,15 @@
+<div class="livemark-chart" style="overflow-x: auto">
+  <div id="{{ chart.elem }}">
+  </div>
+</div>
+{% if card %}
+<script>
+vegaEmbed('#{{ chart.elem }}', JSON.parse('{{ chart.spec }}'))
+</script>
+{% else %}
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+  vegaEmbed('#{{ chart.elem }}', JSON.parse('{{ chart.spec }}'))
+})
+</script>
+{% endif %}

@@ -1,0 +1,15 @@
+<div id="livemark-links">
+  <ul>
+    {% for item in plugin.items %}
+    <li>
+      <a
+        href="{{ item.path }}"
+        target="_blank"
+        {% if item.hook %}onclick="{{ item.hook }}"{% endif %}
+      >
+        {{ item.name }}
+      </a>
+    </li>
+    {% endfor %}
+  </ol>
+</div>
