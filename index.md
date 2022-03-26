@@ -1,3 +1,2 @@
-# Sample Livemark Project
-
-It will be great here!
+# BNHR + SmartCT
+## What is BNHR and SmartCT?
